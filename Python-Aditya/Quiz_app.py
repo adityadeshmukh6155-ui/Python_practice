@@ -1,70 +1,70 @@
-# score = 0
+score = 0
 
-# print("welcome to the quize game ")
-# print("--------------------------")
+print("welcome to the quize game ")
+print("--------------------------")
 
-# name = input("inter your name:    ")
-# print("weclome to the quize game  ",name)
+name = input("inter your name:    ")
+print("weclome to the quize game  ",name)
 
-# # quize qui 1 
-# ans  = input("\n what is capital of japan :  ")
+# quize qui 1 
+ans  = input("\n what is capital of japan :  ")
 
-# while True:
-#     if ans.lower() == "tokyo":
-#         print("correct :")
-#         print("\n you are brillent  ",name)
-#         score += 1
-#         break
+while True:
+    if ans.lower() == "tokyo":
+        print("correct :")
+        print("\n you are brillent  ",name)
+        score += 1
+        break
 
-#     else:
-#         print("wrong")
-#         print("abhyas kara  ",name)
-#         break
+    else:
+        print("wrong")
+        print("abhyas kara  ",name)
+        break
 
-# # quize qui 2
+# quize qui 2
 
-# ans = input("\nwhat is national animal of india:   ")
+ans = input("\nwhat is national animal of india:   ")
 
-# while True:
-#     if ans.lower() == "tiger":
-#         print("correct :")
-#         print("\n you are too brillent ",name)
-#         score += 1
-#         break
+while True:
+    if ans.lower() == "tiger":
+        print("correct :")
+        print("\n you are too brillent ",name)
+        score += 1
+        break
 
-#     else:
-#         print("wrong")
-#         print("abhyas kara vo ",name)
-#         break
+    else:
+        print("wrong")
+        print("abhyas kara vo ",name)
+        break
 
-# # quize qui 3 
+# quize qui 3 
 
-# ans = input("what is the year of india independence:  ")
+ans = input("what is the year of india independence:  ")
 
-# while True:
-#     if ans == "1947":
-#         print("correct :")
-#         print("\n you are too brillent  ",name)
-#         score += 1
-#         break
+while True:
+    if ans == "1947":
+        print("correct :")
+        print("\n you are too brillent  ",name)
+        score += 1
+        break
 
-#     else:
-#         print("wrong")
-#         print("abhyas kara vo ",name)
-#         break
+    else:
+        print("wrong")
+        print("abhyas kara vo ",name)
+        break
 
 
-# print("your score is: ",score)
+print("your score is: ",score)
 
-# while True:
-#     if score == 3:
-#         print("\n you are too much brillent ", name)
-#         print("\n keep it up")
-#         break
+while True:
+    if score == 3:
+        print("\n you are too much brillent ", name)
+        print("\n keep it up")
+        break
 
-#     else:
-#         print("\n ks honar tumch ",name)
-#         break
+    else:
+        print("\n ks honar tumch ",name)
+        break
 
-# print("\n thank you for vising us " ,name)
-# print("--------------------------")
+print("\n thank you for vising us " ,name)
+print("--------------------------")
