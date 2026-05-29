@@ -1,6 +1,6 @@
 
 import time
-i = 0
+
 
 time_set = input("enter your time(hh:mm:ss)")
 
