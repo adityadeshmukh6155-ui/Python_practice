@@ -42,6 +42,7 @@ while True:
        print("fair priced is $100")
 
     else:
+      break
        
 
        
