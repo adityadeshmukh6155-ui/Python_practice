@@ -21,9 +21,9 @@ while True:
 
     exit_time = input("how long can a car be parked in parking lot ")
 
-    choice = input("select one number: ")
+    
 
-    if choice == "1":
+    if exit_time == "1":
 
         print("\ncheaking parking status")
         print("we have 5 parking lots")
