@@ -2,7 +2,7 @@
 import time
 i = 0
 
-time_set = int(input("enter your time(hh:mm:ss)"))
+time_set = input("enter your time(hh:mm:ss)")
 
 print("Alarm set for ",time_set)
 
