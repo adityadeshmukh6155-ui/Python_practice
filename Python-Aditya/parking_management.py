@@ -41,12 +41,17 @@ while True:
        print("your car is parked suscessfully")
        print("fair priced is $100")
 
-    
-    elif exit_time == 3:
-     print("your car removed succesfully")
-     print("you have to pay $100")
+    else:
+       
 
-    elif exit_time == 4:
+       
+
+    
+      if exit_time == 3:
+       print("your car removed succesfully")
+       print("you have to pay $100")
+
+    if exit_time == 4:
        print("cheaking availebility of parking")
 
        for i in rnage (len(parking)):
