@@ -2,10 +2,17 @@
 import time
 i = 0
 
-time_set = int(input("enter your time"))
+time_set = int(input("enter your time(hh:mm:ss)"))
 
-set_time = time.CLOCK_REALTIME(1,24)
+print("Alarm set for ",time_set)
 
-if time_set == set_time:
-    for i in i+1:
-        print("time")
+while True:
+    set_time = time.strftime("%H:%M:%S")
+
+    print(set_time)
+    
+    if set_time == time_set:
+        print("wake up")
+        break
+
+    time.sleep(1)
