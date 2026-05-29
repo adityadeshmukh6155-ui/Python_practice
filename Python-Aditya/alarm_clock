@@ -1,0 +1,5 @@
+
+import time
+
+time_set = int(input("enter your time"))
+
