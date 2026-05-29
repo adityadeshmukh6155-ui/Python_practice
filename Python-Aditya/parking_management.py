@@ -16,7 +16,7 @@ while True:
     print(" 3 hours parking fee is $200")
     print(" 24 hours parking fee is $1000")
 
-    exit_time = input("how long can a car be parked in parking lot ",name)
+    exit_time = input("how long can a car be parked in parking lot ")
 
     if car_number == 1:
         print("eudfhefs")
