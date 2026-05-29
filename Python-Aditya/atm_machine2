@@ -1,0 +1,40 @@
+
+pin = 1234
+balance = 1500
+count = 0
+
+
+
+
+atm_pin = int(input("inter your pin"))
+
+
+
+
+if pin == atm_pin:
+    print("your are inter atm machine ")
+
+print("cheaking balance press 1 \n" ,"willdraw balanve press 2 \n","adding balance press 3 ")   
+ 
+while True:
+    option = int(input("which option are going with"))
+
+    if option  == 1:
+        print("your balanace is  ",balance)
+
+    elif option == 2:
+        willdraw  = float(input("inter your willdraw amount"))
+        if willdraw <= balance:
+            balance -= willdraw
+            print("your curent balance is : ",balance)
+
+    elif option == 3:
+        adding = float(input("inter your adding amount"))
+        balance += adding
+        print("your new amount is : ",balance)
+
+    elif option == 4:
+        print("thank you for using atm machine")
+    
+    else:
+        print("count 3 ")
