@@ -14,12 +14,13 @@ car_number = input("enter your car number  ")
 
 while True:
     
-    print("\n 1 hour parking fee is $10")
-    print(" 2 hours parking fee is $15")
-    print(" 3 hours parking fee is $20")
-    print(" 24 hours parking fee is $100")
+    print("\n 1. view parking ")
+    print(" 2. car parking ")
+    print(" 3. remove car")
+    print(" 4. availeble parking")
+    print("5. exit ")
 
-    exit_time = input("how long can a car be parked in parking lot ")
+    exit_time = input("select one ")
 
     
 
@@ -35,6 +36,31 @@ while True:
          print("invalid choice")
 
     break
+
+    if exit_time == 2:
+       print("your car is parked suscessfully")
+       print("fair priced is $100")
+
+    
+    elif exit_time == 3:
+     print("your car removed succesfully")
+     print("you have to pay $100")
+
+    elif exit_time == 4:
+       print("cheaking availebility of parking")
+
+       for i in rnage (len(parking)):
+          print("fslot{i+1}:{parking[i]}")
+          break
+       
+    elif exit_time == 5:
+       print("thank for visiting us")
+
+    else:
+       print("error")
+       break    
+        
+
 
 
 
