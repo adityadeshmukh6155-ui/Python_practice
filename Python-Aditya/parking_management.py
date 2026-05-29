@@ -19,5 +19,5 @@ while True:
     exit_time = input("how long can a car be parked in parking lot ",name)
 
     if car_number == 1:
-        print("eudfhef")
+        print("eudfhefs")
 
