@@ -1,4 +1,4 @@
-f =  open("Python-Aditya/learning_files(input/output)/demo.txt","w")
+f =  open("C:\Users\adity\Downloads\Aditya Deshmukh.txt","w")
 f.write ("aditya deshmukh")
 
 f.close()
