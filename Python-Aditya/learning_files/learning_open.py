@@ -1,6 +1,6 @@
 
 f = open("/workspaces/Python_practice/Python-Aditya/learning_files/demo.txt","r")
-data = f.readlines()
-print(data)
-print(type(data))
+line1 = f.readlines()
+print(datline1)
+print(type(line1))
 f.close()
