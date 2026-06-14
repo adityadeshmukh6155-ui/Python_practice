@@ -1,4 +1,2 @@
-f =  open("C:\Users\adity\Downloads\Aditya Deshmukh.txt","w")
-f.write ("aditya deshmukh")
-
-f.close()
+with open(r"C:\Users\adity\Downloads\Aditya Deshmukh.txt", "a") as f:
+    f.write("\nData Engineering")
