@@ -1,2 +1,5 @@
-with open(r"C:\Users\adity\Downloads\Aditya Deshmukh.txt", "w") as f:
-    f.write("Hello Aditya")
+f = open("Python-Aditya/learning_files(input/output)/demo.txt","w")
+
+f.write("aditya deshmukh")
+
+f.close()
