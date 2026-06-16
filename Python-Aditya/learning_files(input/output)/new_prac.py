@@ -5,7 +5,7 @@ with("Python-Aditya/learning_files(input/output)/pract.txt","r") as f:
    nums = data.split(",")
    for val in nums:
       if(int(val) % 2 == 0):
-         print(count)
+         count += 1
 
 print(count)
 
