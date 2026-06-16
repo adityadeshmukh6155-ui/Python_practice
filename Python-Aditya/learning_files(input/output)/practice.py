@@ -7,4 +7,4 @@ def check_for_word():
      else:
          print("not found")
 
-check_for_word():
+check_for_word()
