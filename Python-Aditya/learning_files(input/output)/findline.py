@@ -6,6 +6,7 @@ with open("Python-Aditya/learning_files(input/output)/practice.txt","r")as f:
   data = f.readline()
   if(word in data):
    print(line_no)
+   return
 
   line_no += 1
   
