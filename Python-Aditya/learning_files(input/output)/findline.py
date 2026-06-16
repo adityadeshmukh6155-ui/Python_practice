@@ -7,5 +7,5 @@ with open("Python-Aditya/learning_files(input/output)/practice.txt","r")as f:
   if(word in data):
    print(line_no)
 
-   line_no += 1
- 
+  line_no += 1
+  
