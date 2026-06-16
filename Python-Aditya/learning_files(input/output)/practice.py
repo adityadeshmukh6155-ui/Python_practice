@@ -5,4 +5,4 @@ new_data = data.replace("java","python")
 print(new_data)
 
 with open("Python-Aditya/learning_files(input/output)/practice.txt","w") as f:
-     print(new_data)
+     f.write(new_data)
