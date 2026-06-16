@@ -1,2 +1,3 @@
 import os 
-os.remove('sample.txt')
+
+os.remove("sample.txt")
