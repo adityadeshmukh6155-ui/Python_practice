@@ -1,4 +1,4 @@
-word = "hi"
+word = "5hi"
 data = True
 line_no = 1 
 with open("Python-Aditya/learning_files(input/output)/practice.txt","r")as f:
