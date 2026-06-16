@@ -1,5 +1,5 @@
 count = 0
-with("Python-Aditya/learning_files(input/output)/pract.txt","r") as f:
+with open("Python-Aditya/learning_files(input/output)/pract.txt","r") as f:
    data = f.read()
   
    nums = data.split(",")
