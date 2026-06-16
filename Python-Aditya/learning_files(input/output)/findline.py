@@ -1,3 +1,11 @@
+word = "learning"
+data = True
+line_no = 1 
 with open("Python-Aditya/learning_files(input/output)/practice.txt","r")as f:
- data = f.readline(5100)
- print(data)
+ while data: 
+  data = f.readline()
+  if(word in data):
+   print("line_no")
+
+   line_no += 1
+ 
