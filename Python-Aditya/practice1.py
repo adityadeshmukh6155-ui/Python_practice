@@ -6,12 +6,21 @@
 #     print("odd")
 
 
-salary = 60000
+# salary = 60000
 
-if salary <= 50000:
-    print("bonus is 10%")
+# if salary <= 50000:
+#     print("bonus is 10%")
 
-else:
-    print("bonus is 5%")
+# else:
+#     print("bonus is 5%")
 
 
+sales = [500, 1200, 800, 2000, 3000]
+
+high_sales =[]
+
+for sale in sales:
+    sales > 1000
+    high_sales.append(sale)
+
+print(high_sales)
