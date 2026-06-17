@@ -46,14 +46,14 @@
 
 
 customers = ["Ram", "John", "Ram", "Alex", "John"]
-dupicate_customers = []
+dupicate = []
 
 for name in customers:
-      if name not in dupicate_customers:
-         dupicate_customers.append[name]
+      if name not in dupicate:
+         dupicate.append[name]
 
 
-      print(dupicate_customers)
+      print(dupicate)
 
     
 
