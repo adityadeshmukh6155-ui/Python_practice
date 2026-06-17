@@ -31,7 +31,8 @@ total = 0
 
 for value in sales:
     total += value
-    print(total)
+
+print(total)
 
 
 
