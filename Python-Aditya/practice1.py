@@ -72,7 +72,7 @@ def clean_name(name):
     return name.strip().capitalize()
 
 input = "aditya"
-clean_name(name) = clean_name(input)
+clean_name = clean_name(input)
 print(input)
 
 
