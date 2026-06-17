@@ -25,14 +25,22 @@
 
 # print(high_sales)
 
-sales = [100, 200, 300, 400]
+# sales = [100, 200, 300, 400]
 
-total = 0
+# total = 0
+
+# for value in sales:
+#     total += value
+
+# print(total)
+
+
+sales = [500, 1200, 800, 2000]
+
+high_sales = []
 
 for value in sales:
-    total += value
-
-print(total)
-
-
+    if value > high_sales
+    high_sales = value
+print(high_sales)
 
