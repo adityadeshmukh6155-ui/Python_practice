@@ -46,14 +46,14 @@
 
 
 customers = ["Ram", "John", "Ram", "Alex", "John"]
-dupicate = []
+duplicate = []
 
 for item in customers:
-      if item not in dupicate:
-         dupicate.append[item]
+      if item not in duplicate:
+         duplicate.append[item]
 
 
-      print(dupicate)
+      print(duplicate)
 
     
 
