@@ -52,7 +52,8 @@ for name in customers:
       if name not in dupicate_customers:
          dupicate_customers.append[name]
 
-         print(dupicate_customers)
+
+      print(dupicate_customers)
 
     
 
