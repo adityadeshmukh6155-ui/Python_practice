@@ -20,7 +20,7 @@ sales = [500, 1200, 800, 2000, 3000]
 high_sales =[]
 
 for sale in sales:
-    sale > 1000
+   if sale > 1000:
     high_sales.append(sale)
 
 print(high_sales)
