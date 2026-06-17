@@ -67,14 +67,23 @@
 # result = calculate_total(price, quantity)
 # print("your total is",result)
 
-def clean_name(name):
+# def clean_name(name):
 
-    return name.strip().capitalize()
+#     return name.strip().capitalize()
 
-input = "aditya"
-clean_name = clean_name(input)
-print(input)
+# input = "aditya"
+# clean_name = clean_name(input)
+# print(input)
 
+employee = {
+    "name":"Aditya",
+    "department":"IT",
+    "salary":60000
+}
+
+print("employe name",employee["name"])
+print("employee department",employee["department"])
+print("employee salary",employee["salary"])
 
 
 
