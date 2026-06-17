@@ -53,7 +53,7 @@ for item in customers:
          duplicate.append[item]
 
 
-      print(duplicate)
+      
 
     
 
