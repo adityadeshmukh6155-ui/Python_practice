@@ -27,9 +27,11 @@
 
 sales = [100, 200, 300, 400]
 
-sum_sales = sum[sales]
+total = 0
 
-print[sum_sales]
+for value in sales:
+    total += value
+    print(total)
 
 
 
