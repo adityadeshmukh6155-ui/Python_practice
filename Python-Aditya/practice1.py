@@ -4,6 +4,7 @@
 #     print("even")
 # else:
 #     print("odd")
+# ==================================================================================================
 
 
 # salary = 60000
@@ -13,6 +14,7 @@
 
 # else:
 #     print("bonus is 5%")
+# ==================================================================================================
 
 
 # sales = [500, 1200, 800, 2000, 3000]
@@ -24,6 +26,8 @@
 #     high_sales.append(sale)
 
 # print(high_sales)
+# ==================================================================================================
+
 
 # sales = [100, 200, 300, 400]
 
@@ -33,6 +37,7 @@
 #     total += value
 
 # print(total)
+# ==================================================================================================
 
 
 # sales = [500, 1200, 800, 2000]
@@ -43,6 +48,7 @@
 #     if value > high_sales:
 #      high_sales = value
 # print(high_sales)
+# ==================================================================================================
 
 
 # customers = ["Ram", "John", "Ram", "Alex", "John"]
@@ -53,6 +59,7 @@
 #          duplicate.append(item)
 
 # print(duplicate)
+# ==================================================================================================
 
 
 # def calculate_total(price, quantity):
@@ -63,9 +70,11 @@
 
 # price = 100
 # quantity = 5
-
+#
 # result = calculate_total(price, quantity)
 # print("your total is",result)
+# ==================================================================================================
+
 
 # def clean_name(name):
 
@@ -74,16 +83,32 @@
 # input = "aditya"
 # clean_name = clean_name(input)
 # print(input)
+# ==================================================================================================
 
-employee = {
-    "name":"Aditya",
-    "department":"IT",
-    "salary":60000
-}
 
-print("employe name",employee["name"])
-print("employee department",employee["department"])
-print("employee salary",employee["salary"])
+# employee = {
+#     "name":"Aditya",
+#     "department":"IT",
+#     "salary":60000
+# }
+
+# print("employe name",employee["name"])
+# print("employee department",employee["department"])
+# print("employee salary",employee["salary"])
+# ==================================================================================================
+
+
+text = "data engineering data python"
+word =text.split()
+frequency = {}
+
+for word in words:
+    if word in frequency:
+        frequency(word) += 1
+    else:
+        frequency = 1
+
+print({word}:{count}) 
 
 
 
