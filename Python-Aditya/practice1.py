@@ -52,6 +52,8 @@ for item in customers:
       if item not in duplicate:
          duplicate.append(item)
 
+      print(duplicate)
+
 
       
 
