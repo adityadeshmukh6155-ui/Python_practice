@@ -109,7 +109,7 @@ for word in words:
         frequency[word] = 1
 
 for word,count in frequency.items():
- print("{word}:{count}") 
+ print(f"{word}:{count}") 
 
 
 
