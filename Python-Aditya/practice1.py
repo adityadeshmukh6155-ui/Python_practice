@@ -1,8 +1,7 @@
-name = "Aditya"
-age = 25
-salary = 50000
+number = 15
 
-print(type(name))
-print(type(age))
-print(type(salary))
+if number %2 == 0:
+    print("even")
+else:
+    print("odd")
 
