@@ -99,7 +99,7 @@
 
 
 text = "data engineering data python"
-word =text.split()
+words =text.split()
 frequency = {}
 
 for word in words:
