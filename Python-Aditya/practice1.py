@@ -35,12 +35,28 @@
 # print(total)
 
 
-sales = [500, 1200, 800, 2000]
+# sales = [500, 1200, 800, 2000]
 
-high_sales = sales[0]
+# high_sales = sales[0]
 
-for value in sales:
-    if value > high_sales:
-     high_sales = value
-print(high_sales)
+# for value in sales:
+#     if value > high_sales:
+#      high_sales = value
+# print(high_sales)
+
+
+customers = ["Ram", "John", "Ram", "Alex", "John"]
+dupicate_customers = []
+
+for name in customers:
+      if name not in dupicate_customers:
+         dupicate_customers.append[name]
+
+         print(dupicate_customers)
+
+    
+
+
+    
+
 
