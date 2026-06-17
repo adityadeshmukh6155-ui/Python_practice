@@ -27,7 +27,7 @@
 
 sales = [100, 200, 300, 400]
 
-sum_sales =sum[100, 200, 300, 400]
+sum_sales =sum[sales]
 
 print[sum_sales]
 
