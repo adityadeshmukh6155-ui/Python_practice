@@ -55,17 +55,27 @@
 # print(duplicate)
 
 
-def calculate_total(price, quantity):
+# def calculate_total(price, quantity):
 
-    total = price * quantity 
+#     total = price * quantity 
 
-    return total
+#     return total
 
-price = 100
-quantity = 5
+# price = 100
+# quantity = 5
 
-result = calculate_total(price, quantity)
-print("your total is",result)
+# result = calculate_total(price, quantity)
+# print("your total is",result)
+
+def clean_name(name):
+
+    return name.strip().capitalize()
+
+input = "aditya"
+clean_name(name) = clean_name(input)
+print(input)
+
+
 
 
       
