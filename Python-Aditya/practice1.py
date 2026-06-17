@@ -50,7 +50,7 @@ duplicate = []
 
 for item in customers:
       if item not in duplicate:
-         duplicate.append[item]
+         duplicate.append(item)
 
 
       
