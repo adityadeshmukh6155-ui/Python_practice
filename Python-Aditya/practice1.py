@@ -37,7 +37,7 @@
 
 sales = [500, 1200, 800, 2000]
 
-high_sales = []
+high_sales = [0]
 
 for value in sales:
     if value > high_sales:
