@@ -40,7 +40,7 @@ sales = [500, 1200, 800, 2000]
 high_sales = []
 
 for value in sales:
-    if value > high_sales
-    high_sales = value
+    if value > high_sales:
+     high_sales = value
 print(high_sales)
 
