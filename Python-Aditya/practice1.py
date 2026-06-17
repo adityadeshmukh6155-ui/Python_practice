@@ -108,7 +108,8 @@ for word in words:
     else:
         frequency = 1
 
-print({word}:{count}) 
+for word,count in frequency.items():
+ print("{word}:{count}") 
 
 
 
