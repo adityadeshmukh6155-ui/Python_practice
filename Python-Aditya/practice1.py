@@ -45,14 +45,27 @@
 # print(high_sales)
 
 
-customers = ["Ram", "John", "Ram", "Alex", "John"]
-duplicate = []
+# customers = ["Ram", "John", "Ram", "Alex", "John"]
+# duplicate = []
 
-for item in customers:
-      if item not in duplicate:
-         duplicate.append(item)
+# for item in customers:
+#       if item not in duplicate:
+#          duplicate.append(item)
 
-print(duplicate)
+# print(duplicate)
+
+
+def calculate_total(price, quantity):
+
+    total = price * quantity 
+
+    return total
+
+price = 100
+quantity = 5
+
+result = calculate_total(price, quantity)
+print("your total is",result)
 
 
       
