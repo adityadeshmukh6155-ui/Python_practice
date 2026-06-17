@@ -15,12 +15,21 @@
 #     print("bonus is 5%")
 
 
-sales = [500, 1200, 800, 2000, 3000]
+# sales = [500, 1200, 800, 2000, 3000]
 
-high_sales =[]
+# high_sales =[]
 
-for sale in sales:
-   if sale > 1000:
-    high_sales.append(sale)
+# for sale in sales:
+#    if sale > 1000:
+#     high_sales.append(sale)
 
-print(high_sales)
+# print(high_sales)
+
+sales = [100, 200, 300, 400]
+
+sum_sales =sum[100, 200, 300, 400]
+
+print[sum_sales]
+
+
+
