@@ -122,7 +122,7 @@
 import csv
 
 with open("Python-Aditya/learning_files(input/output)/pract.txt","r") as file:
-    reader  = csv.DictReader()
+    reader  = csv.DictReader(file)
     for row in reader:
         if int(row["Salary"]) > 55000:
             print(row["Name"])
