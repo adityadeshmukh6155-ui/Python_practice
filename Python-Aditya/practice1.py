@@ -122,7 +122,7 @@
 
 import csv
 
-with open("employees.csv","r") as file:
+with open("Python-Aditya/learning_files(input/output)/pract.txt","r") as file:
     reader = csv.DictReader(file)
 
     for row in reader:
