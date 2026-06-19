@@ -131,7 +131,7 @@
 data = [1,2,3,4,5,6]
 
 for data in data:
-    print("round : {data}")
+    print(f"round : {data}")
 
 
       
