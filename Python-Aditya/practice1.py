@@ -136,7 +136,7 @@
 
 set = [0]
 for set in set[1,10,7]:
-    print("7 * {set}")
+    print(f"7 * {set}")
 
 
       
