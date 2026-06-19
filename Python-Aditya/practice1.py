@@ -136,7 +136,7 @@
 
 
 
-for set in range(1,70,7):
+for set in range(2,70,7):
     print(f"7 * {set}")
 
 
