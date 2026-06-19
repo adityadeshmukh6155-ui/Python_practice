@@ -133,10 +133,11 @@
 # for data in data:
 #     print(f"round : {data}")
 #=====================================================================================================
-# 
-#  
 
-for set in range(1,70,7):
+
+table = [0]
+for set in table(1,70,7):
+    set += table
     print(f"7 * {set}")
 
 
