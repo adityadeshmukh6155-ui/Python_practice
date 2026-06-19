@@ -136,9 +136,11 @@
 
 
 
-y="*"
-for i in range(1,7):
-    print(f"{y*i}")
+i = 0
+for num in range(7,72,7) :
+    i += 1
+    print(f"7 x {i} = {num}")
+
       
 
     
