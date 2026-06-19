@@ -137,7 +137,7 @@
 
 
 for i in range (7,71,7):
-    print(f"7 * {i}")
+    print(f"7 * 1 ={i}")
 
       
 
