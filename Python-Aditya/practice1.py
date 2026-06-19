@@ -128,11 +128,14 @@
 #             print(row["Name"])
 # ===================================================================================================
 
-data = ("aditya prakash deshmukh")
+# data = ("aditya prakash deshmukh")
 
-for data in data:
-    print(f"round : {data}")
+# for data in data:
+#     print(f"round : {data}")
+#=====================================================================================================
 
+for i in range (5):
+    print(i)
 
       
 
