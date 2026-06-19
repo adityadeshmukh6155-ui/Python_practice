@@ -137,7 +137,7 @@
 
 table = [0]
 for set in table(1,70,7):
-    set += table
+    table *= set
     print(f"7 * {set}")
 
 
