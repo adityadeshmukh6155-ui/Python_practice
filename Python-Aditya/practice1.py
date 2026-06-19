@@ -136,10 +136,9 @@
 
 
 
-x = 7
-for i in range(1,11):
-    print(f"7 x {i} = {x*i}")
-
+y="*"
+for i in range(1,7):
+    print(f"{y*i}")
       
 
     
