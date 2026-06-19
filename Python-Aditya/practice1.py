@@ -130,7 +130,7 @@
 
 data = [1,2,3,4,5,6]
 
-for data in range data:
+for data in range[1,2,3,4,5,6]:
     print(data)
 
 
