@@ -130,8 +130,8 @@
 
 data = [1,2,3,4,5,6]
 
-for data in range item:
-    print(data)
+for data in data:
+    print("round" : [data])
 
 
       
