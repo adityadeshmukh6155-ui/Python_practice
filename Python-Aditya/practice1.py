@@ -150,11 +150,5 @@
 
 # ===============================================================================================
 
-text = """aditya 
-sjdiojd
-dkdjol
-dkjdic
-"""
-
-
-print(text.count("a"))
+number = "+49 (176) 123-4567"
+print(number.replace("+","").replace" ","".replace("-",""))
