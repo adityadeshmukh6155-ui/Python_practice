@@ -150,20 +150,11 @@
 
 # ===============================================================================================
 
-password = ("Aditya1235@")
-password1 = input("enter your password")
+text = """aditya 
+sjdiojd
+dkdjol
+dkjdic
+"""
+count = text.count()
 
-if password1 == password:
-    print("welcome")
-
-elif password1 != password:
-    print("incorrect password try again")
-
-elif len(password) < 11:
-    print("too short it must be 8 char")
-
-elif len(password) > 11:
-    print("too short")
-
-else:
-   ("error")
+print(count)
