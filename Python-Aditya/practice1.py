@@ -150,6 +150,10 @@
 
 # ===============================================================================================
 
+age  = 28
+height = 5.6
 name = "aditya"
-name1 = ".com"
-print(name,"deshmukh@gmai",name1)
+student = "yes"
+no_value = None
+
+print(len(type(age,height,name,student,no_value)))
