@@ -150,5 +150,5 @@
 
 # ===============================================================================================
 
-print("you are learning path\t - pthon")
+print("you are learning path\n - python besic\n - data enginnering\n - AI")
  
