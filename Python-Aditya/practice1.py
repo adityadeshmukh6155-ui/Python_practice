@@ -157,4 +157,4 @@ dkjdic
 """
 
 
-print(text.count)
+print(text.count())
