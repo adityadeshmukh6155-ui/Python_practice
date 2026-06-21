@@ -156,4 +156,4 @@ name = "aditya"
 student = "yes"
 no_value = None
 
-print(len(age,height,name,student))
+print(len(age,height,name,student,no_value))
