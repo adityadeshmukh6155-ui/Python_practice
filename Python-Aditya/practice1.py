@@ -156,4 +156,4 @@ name = "aditya"
 student = "yes"
 no_value = None
 
-print(type(age,height,name,student,no_value))
+print(type(age,height,name,student))
