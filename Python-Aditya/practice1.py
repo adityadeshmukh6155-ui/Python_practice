@@ -150,10 +150,20 @@
 
 # ===============================================================================================
 
+password = ("Aditya1235@")
+password1 = input("enter your password")
 
-age = 29
-print("ur age is:" , age)
+if password1 == password:
+    print("welcome")
 
-name = input("what is your name")
-name1 = 28
-print("yout name is",name ,name1)
+elif password1 != password:
+    print("incorrect password try again")
+
+elif password1 < 11:
+    print("too short it must be 8 char")
+
+elif password1 > 11:
+    print("too short")
+
+else:
+   ("error")
