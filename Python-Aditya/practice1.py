@@ -152,4 +152,4 @@
 
 
 age = 29
-print("ur age is:" + age)
+print(int("ur age is:") + age)
