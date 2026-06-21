@@ -155,6 +155,6 @@ sjdiojd
 dkdjol
 dkjdic
 """
-text1 = text.count()
 
-print(text1)
+
+print(text.count)
