@@ -152,3 +152,6 @@
 
 number = "+49 (176) 123-4567"
 print(number.replace("+","").replace(" ","").replace("-","").replace("(","").replace(")",""))
+
+number = "+49 (176) 123-4567"
+print(number.replace"+49 (176) 123-4567","491461234567")
