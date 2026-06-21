@@ -150,10 +150,6 @@
 
 # ===============================================================================================
 
-age  = 28
-height = 5.6
-name = "aditya"
-student = "yes"
-no_value = None
 
-print(type([age,height,name,student,no_value]))
+age = 29
+print("ur age is:" + age)
