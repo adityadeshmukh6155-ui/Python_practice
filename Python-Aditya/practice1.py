@@ -155,5 +155,5 @@ age = 29
 print("ur age is:" , age)
 
 name = input("what is your name")
-name1 = "dokfe"
+name1 = 28
 print("yout name is",name ,name1)
