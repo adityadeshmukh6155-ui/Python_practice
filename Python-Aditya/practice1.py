@@ -159,10 +159,10 @@ if password1 == password:
 elif password1 != password:
     print("incorrect password try again")
 
-elif len(password1) < 11:
+elif len(password) < 11:
     print("too short it must be 8 char")
 
-elif len(password1) > 11:
+elif len(password) > 11:
     print("too short")
 
 else:
