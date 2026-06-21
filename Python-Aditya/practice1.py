@@ -150,5 +150,5 @@
 
 # ===============================================================================================
 
-print("you are learning path\n\t-python besic\n\t-data enginnering\n\t-AI")
- 
+x = 3
+print("t",x+3)
