@@ -157,4 +157,4 @@ dkjdic
 """
 
 
-print(text.count("python"))
+print(text.count("a"))
