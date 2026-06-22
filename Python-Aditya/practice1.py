@@ -164,5 +164,8 @@
 # print(name + name2 +name1)
 # ===============================================================================================
 
-name  = ("my name is aditya prakash/deshmukh ,27-04-1997,28,413+512")
-print(name.replace("+","").replace("/"," ").split(","))
+# name  = ("my name is aditya prakash/deshmukh ,27-04-1997,28,413+512")
+# print(name.replace("+","").replace("/"," ").split(","))
+# ===============================================================================================
+
+print("ha"*3)
