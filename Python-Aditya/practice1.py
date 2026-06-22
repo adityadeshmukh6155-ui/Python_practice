@@ -185,22 +185,33 @@
 # clean = clean.strip()
 # print(clean)
 # ===================================================================================================
-# Full Python Calculator
 
-print("===== Python Calculator =====")
-print("Type your calculation like: 2+2, 10*5, 100/4")
-print("Type 'exit' to close calculator")
+
+# print("===== Python Calculator =====")
+# print("Type your calculation like: 2+2, 10*5, 100/4")
+# print("Type 'exit' to close calculator")
+
+# while True:
+#     calculation = input("\nEnter calculation: ")
+
+#     if calculation == "exit":
+#         print("Calculator closed")
+#         break
+
+#     try:
+#         answer = eval(calculation)
+#         print("Answer:", answer)
+
+#     except:
+#         print("Invalid calculation")
+# ================================================================================================
+
+
+text = "aditya deshmukh2"
+num  = text.find("@") 
 
 while True:
-    calculation = input("\nEnter calculation: ")
+ if  num == num:
+    text1 = num.replace("@","")
 
-    if calculation == "exit":
-        print("Calculator closed")
-        break
-
-    try:
-        answer = eval(calculation)
-        print("Answer:", answer)
-
-    except:
-        print("Invalid calculation")
+    print("text1")
