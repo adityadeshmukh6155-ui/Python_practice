@@ -207,7 +207,10 @@
 # ================================================================================================
 
 import math
-x= "abc"
-math.floor
+math.nan == math.nan
 
-print(x)
+float('nan') == float('nan')
+
+math.isnan(math.nan)
+
+math.isnan(float('nan'))
