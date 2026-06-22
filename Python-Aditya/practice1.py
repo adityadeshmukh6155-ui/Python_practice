@@ -206,15 +206,6 @@
 #         print("Invalid calculation")
 # ================================================================================================
 
-
-text = "aditya@deshmukh2"
-num  = text.find("@") 
-
-while True:
- if "8" in text:
-    text1 = text.replace("@","")
-
-    print("text1")
-    break
-else:
-  print("uhdf")
+x = 5
+x //= 5
+print(x)
