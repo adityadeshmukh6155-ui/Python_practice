@@ -208,6 +208,6 @@
 
 import random
 
-num = random.randint(1,100)
+num = int(random.randint(1,100))
 
-for num  %= 0:
+print(num)
