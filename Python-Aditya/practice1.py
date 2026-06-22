@@ -211,7 +211,7 @@ text = "aditya@deshmukh2"
 num  = text.find("@") 
 
 while True:
- if "@" in text:
+ if "8" in text:
     text1 = text.replace("@","")
 
     print("text1")
