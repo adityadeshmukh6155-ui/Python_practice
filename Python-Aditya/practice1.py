@@ -206,13 +206,10 @@
 #         print("Invalid calculation")
 # ================================================================================================
 
-import math
-math.nan == math.nan
+import random
 
-float('nan') == float('nan')
+name  = input("enter your number btn 1 - 10")
 
-math.isnan(math.nan)
-
-math.isnan(float('nan'))
-
-
+if name <= 10:
+    random.randint()
+    print("you inter")
