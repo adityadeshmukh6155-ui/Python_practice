@@ -168,6 +168,19 @@
 # print(name.replace("+","").replace("/"," ").split(","))
 # ===============================================================================================
 
+# text = "968-Maria , ( Data engineer ) ;; 27y  "
+# clean = text.replace("968","name").replace(",","|").replace(")","|").replace(";;"," age :").replace("(","role :").strip().replace("27y","27")
+# print(clean)
+# ===============================================================================================
+
 text = "968-Maria , ( Data engineer ) ;; 27y  "
-clean = text.replace("968","name").replace(",","|").replace(")","|").replace(";;"," age :").replace("(","role :").strip().replace("27y","27")
+text = "968-Maria , ( Data engineer ) ;; 27y"
+
+clean = text.replace("968", "name")
+clean = clean.replace(",", "|")
+clean = clean.replace("(", "role :")
+clean = clean.replace(")", "")
+clean = clean.replace(";;", "| age :")
+clean = clean.replace("27y", "27")
+
 print(clean)
