@@ -209,6 +209,6 @@
 import random
 
 num = int(random.randint(1,100))
-num1 = num % 0
 
-print(num1)
+if num %2 == 0:
+    print(num)
