@@ -164,4 +164,5 @@
 # print(name + name2 +name1)
 # ===============================================================================================
 
-print(f"{{this is me}}")
+name  = ("my name is aditya prakash/deshmukh ,27-04-1997,28,,413+512")
+print(name.split(",").remove("+"))
