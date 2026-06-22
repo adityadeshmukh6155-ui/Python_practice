@@ -215,3 +215,4 @@ while True:
     text1 = text.replace("@","")
 
     print("text1")
+    break
