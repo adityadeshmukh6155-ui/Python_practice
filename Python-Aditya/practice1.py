@@ -173,15 +173,34 @@
 # print(clean)
 # ===============================================================================================
 
-text = "968-Maria , ( Data engineer ) ;; 27y  "
-text = "968-Maria , ( Data engineer ) ;; 27y"
+# text = "968-Maria , ( Data engineer ) ;; 27y  "
+# text = "968-Maria , ( Data engineer ) ;; 27y"
 
-clean = text.replace("968", "name")
-clean = clean.replace(",", "|")
-clean = clean.replace("(", "role :")
-clean = clean.replace(")", "")
-clean = clean.replace(";;", "| age :")
-clean = clean.replace("27y", "27")
-clean = clean.strip()
-print(clean)
-print(clean)
+# clean = text.replace("968", "name")
+# clean = clean.replace(",", "|")
+# clean = clean.replace("(", "role :")
+# clean = clean.replace(")", "")
+# clean = clean.replace(";;", "| age :")
+# clean = clean.replace("27y", "27")
+# clean = clean.strip()
+# print(clean)
+# ===================================================================================================
+# Full Python Calculator
+
+print("===== Python Calculator =====")
+print("Type your calculation like: 2+2, 10*5, 100/4")
+print("Type 'exit' to close calculator")
+
+while True:
+    calculation = input("\nEnter calculation: ")
+
+    if calculation == "exit":
+        print("Calculator closed")
+        break
+
+    try:
+        answer = eval(calculation)
+        print("Answer:", answer)
+
+    except:
+        print("Invalid calculation")
