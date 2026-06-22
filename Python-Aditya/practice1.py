@@ -209,7 +209,7 @@
 import random
 
 num = input(random.randint(1,100))
+num1 = num % 2 == 0
 
-if num %2 == 0:
-    print(num)
+print(num0)
 
