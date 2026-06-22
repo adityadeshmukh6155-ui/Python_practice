@@ -209,7 +209,7 @@
 import random
 
 name  = int(input("enter your number btn 1 - 10     "))
-name1 = random.randint(1,10)
+name1 = random.randint()
 
 if name == name1:
     print("you win",name1)
