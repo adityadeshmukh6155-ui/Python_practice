@@ -208,7 +208,8 @@
 
 import random
 
-num = int(random.randint(1,100))
+num = input(random.randint(1,100))
 
 if num %2 == 0:
     print(num)
+    
