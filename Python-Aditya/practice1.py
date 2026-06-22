@@ -208,7 +208,7 @@
 
 import random
 
-name  = input("enter your number btn 1 - 10")
+name  = int(input("enter your number btn 1 - 10"))
 
 if name <= 10:
     random.randint()
