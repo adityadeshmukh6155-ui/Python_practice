@@ -212,7 +212,7 @@ name  = int(input("enter your number btn 1 - 10     "))
 name1 = random.randint(1,10)
 
 if name == name1:
-    print("you win")
+    print("you win",name1)
 
 else:
     print("try again")
