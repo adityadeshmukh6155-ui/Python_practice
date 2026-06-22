@@ -182,5 +182,6 @@ clean = clean.replace("(", "role :")
 clean = clean.replace(")", "")
 clean = clean.replace(";;", "| age :")
 clean = clean.replace("27y", "27")
-
+clean = clean.strip()
+print(clean)
 print(clean)
