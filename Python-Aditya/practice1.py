@@ -215,4 +215,4 @@ if name == name1:
     print("you win",name1)
 
 else:
-    print("try again")
+    print("try again",name1)
