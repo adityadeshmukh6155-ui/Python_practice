@@ -209,3 +209,5 @@
 import math
 x= "abc"
 math.floor
+
+print(x)
