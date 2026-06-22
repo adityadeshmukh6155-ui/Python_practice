@@ -169,4 +169,4 @@
 # ===============================================================================================
 
 text = "968-Maria, ( Data engineer ) ;; 27y  "
-clean = text.replace("968","name").replace("(","|").replace(")",("|").replace(";;")(" "))
+clean = text.replace("968","name").replace("","|").replace("","|").replace(";;"," ")
