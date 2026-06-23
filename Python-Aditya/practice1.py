@@ -206,10 +206,12 @@
 #         print("Invalid calculation")
 # ================================================================================================
 
-import random
+# import random
 
-num = input(random.randint(1,100))
-num1 = num % 2 == 0
+# num = input(random.randint(1,100))
+# num1 = num % 2 == 0
 
-print(num1)
+# print(num1)
+# ================================================================================================
 
+print(10 == 10)
