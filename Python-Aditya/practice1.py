@@ -269,7 +269,7 @@
 #     print("You cannot access")
 # ==================================================================================================
 
-access = "user" or "guest" and "other"
+access = "user" or "guest"
 
 print(input("enter   "))
 
