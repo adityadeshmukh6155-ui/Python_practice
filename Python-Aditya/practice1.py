@@ -284,7 +284,7 @@ salary = Employee_salary > 50000
 
 
 
-if Employee_salary > "bonus":
+if Employee_salary > salary:
     print(int("bonus is ") * 10)
 
 
