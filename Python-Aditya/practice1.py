@@ -231,6 +231,17 @@ if access == user:
     print("user")
     if user_password == user:
         print("welcome the AC")
+    else:
+        print("error")
+
+elif access == guest:
+    print("guest") 
+    if guest == guest_password:
+        print ("weclome to dc")
+    else:
+        print("error")
+elif access == nothing:
+    print("you can access")
 
 
 
