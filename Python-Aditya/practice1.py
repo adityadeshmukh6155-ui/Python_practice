@@ -291,7 +291,7 @@
 # print("Total Salary:", total_salary)
 # ================================================================================================
 
-age  = str(input("enter your age:  "))
+age  = int(input("enter your age:  "))
 
 if age <= 18:
     print("you are minor")
