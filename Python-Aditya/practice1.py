@@ -280,12 +280,13 @@
 # =================================================================================================
 
 Employee_salary =int(input("enter your salary  "))
-salary = Employee_salary > 50000
 
 
 
-if Employee_salary > salary:
-    print(int("bonus is ") * 10)
+if Employee_salary > 50000:
+    print(Employee_salary * 0.10)
+else:
+    print(Employee_salary * 0.5)
 
 
 
