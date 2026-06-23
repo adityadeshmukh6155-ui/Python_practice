@@ -220,12 +220,12 @@
 # print(total)
 # =================================================================================================
 
-access = input("enter : you are user or guest or nothing")
-user = input("user enter your password")
+access = input("enter : you are user or guest or nothing   ")
+user = input("user enter your password   ")
 user_password = "Aditya"
-guest = ("guest enter your password")
+guest = ("guest enter your password   ")
 guest_password = "aditya"
-nothing = "you can not access"
+nothing = "you can not access   "
 
 if access == user:
     print("user")
