@@ -278,20 +278,28 @@
 # else:
 #     print("u are not allowed here to access")
 # =================================================================================================
-salary = float(input("Enter salary: "))
+# salary = float(input("Enter salary: "))
 
-if salary > 50000:
-    bonus = salary * 0.10
-else:
-    bonus = salary * 0.05
+# if salary > 50000:
+#     bonus = salary * 0.10
+# else:
+#     bonus = salary * 0.05
 
-total_salary = salary + bonus
+# total_salary = salary + bonus
 
-print("Bonus:", bonus)
-print("Total Salary:", total_salary)
+# print("Bonus:", bonus)
+# print("Total Salary:", total_salary)
+# ================================================================================================
 
+age  = input("enter your age:  ")
 
-
+if age < 18:
+    print("you are minor")
+elif age > 18:
+    print("you are adult")
+elif age < 60:
+    print("your are senior citicen")
+    
 
 
 
