@@ -216,5 +216,5 @@
 
 cpu = 90
 gpu = 70
-total = cpu > 90 or gpu > 70
+total = cpu >= 90 or gpu >= 70
 print(total)
