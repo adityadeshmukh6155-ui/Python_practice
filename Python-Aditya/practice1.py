@@ -218,9 +218,27 @@
 # gpu = 70
 # total = not cpu > 90 or not gpu >  70
 # print(total)
+# =================================================================================================
 
-text  = ("=================================================================================================")
-print(len(text))
+access = input("enter : you are user or guest or nothing")
+user = ("user enter your password")
+user_password = "Aditya"
+guest = ("guest enter your password")
+guest_password = "aditya"
+nothing = "you can not access"
+
+if access == user:
+    print("user")
+    if user == user_password:
+        print("welcome the AC")
+
+
+
+    
+
+
+
+
 
 
 
