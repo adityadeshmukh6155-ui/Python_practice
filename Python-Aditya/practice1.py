@@ -275,6 +275,8 @@ print(input("enter   "))
 
 if "user" or "guest":
     print("welcome")
+else:
+    print("u are not allowed here to access")
 
 
 
