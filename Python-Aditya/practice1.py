@@ -284,7 +284,7 @@ Employee_salary =int(input("enter your salary  "))
 
 
 if Employee_salary > 50000:
-    print(Employee_salary * 0.10)
+    print(Employee_salary * 0.10,Employee_salary)
 else:
     print(Employee_salary * 0.5)
 
