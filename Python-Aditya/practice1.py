@@ -278,17 +278,17 @@
 # else:
 #     print("u are not allowed here to access")
 # =================================================================================================
+salary = float(input("Enter salary: "))
 
-Employee_salary =int(input("enter your salary  "))
-
-
-
-if Employee_salary > 50000:
-    print(Employee_salary * 0.10,Employee_salary)
+if salary > 50000:
+    bonus = salary * 0.10
 else:
-    print(Employee_salary * 0.5)
+    bonus = salary * 0.05
 
+total_salary = salary + bonus
 
+print("Bonus:", bonus)
+print("Total Salary:", total_salary)
 
 
 
