@@ -280,6 +280,8 @@
 # =================================================================================================
 
 Employee_salary =int(input("enter your salary  "))
+salary = Employee_salary > 50000
+
 
 
 if Employee_salary > "bonus":
