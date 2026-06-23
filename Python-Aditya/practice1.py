@@ -283,7 +283,7 @@ Employee_salary =int(input("enter your salary  "))
 
 
 if Employee_salary > "bonus":
-    print(("bonus is ") * 10)
+    print(int("bonus is ") * 10)
 
 
 
