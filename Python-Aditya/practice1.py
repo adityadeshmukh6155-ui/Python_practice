@@ -221,7 +221,7 @@
 # =================================================================================================
 
 access = input("enter : you are user or guest or nothing")
-user = ("user enter your password")
+user = input("user enter your password")
 user_password = "Aditya"
 guest = ("guest enter your password")
 guest_password = "aditya"
