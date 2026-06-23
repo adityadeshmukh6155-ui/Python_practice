@@ -229,7 +229,7 @@ nothing = "you can not access"
 
 if access == user:
     print("user")
-    if user == user_password:
+    if user_password == user:
         print("welcome the AC")
 
 
