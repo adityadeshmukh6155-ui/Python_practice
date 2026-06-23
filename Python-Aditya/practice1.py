@@ -279,7 +279,7 @@
 #     print("u are not allowed here to access")
 # =================================================================================================
 
-Employee_salary =int(input("enter your salary"))
+Employee_salary =int(input("enter your salary  "))
 
 
 if Employee_salary > "bonus":
