@@ -244,30 +244,39 @@
 #     print("you can access")
 # =============================================================================================================
 
-access = input("Enter user or guest: ")
+# access = input("Enter user or guest: ")
 
-user_password = "Aditya"
-guest_password = "aditya"
+# user_password = "Aditya"
+# guest_password = "aditya"
 
-if access == "user":
-    password = input("User, enter your password: ")
+# if access == "user":
+#     password = input("User, enter your password: ")
 
-    if password == user_password:
-        print("Welcome to AC")
-    else:
-        print("Error: Wrong password")
+#     if password == user_password:
+#         print("Welcome to AC")
+#     else:
+#         print("Error: Wrong password")
 
-elif access == "guest":
-    password = input("Guest, enter your password: ")
+# elif access == "guest":
+#     password = input("Guest, enter your password: ")
 
-    if password == guest_password:
-        print("Welcome to DC")
-    else:
-        print("Error: Wrong password")
+#     if password == guest_password:
+#         print("Welcome to DC")
+#     else:
+#         print("Error: Wrong password")
 
-else:
-    print("You cannot access")
-    
+# else:
+#     print("You cannot access")
+# ==================================================================================================
+
+access = "user" or "guest" and "other"
+
+print(input("enter   "))
+
+if "user" or "guest":
+    print("welcome")
+
+
 
 
     
