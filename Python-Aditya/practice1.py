@@ -295,10 +295,10 @@ age  = int(input("enter your age:  "))
 
 if age <= 18:
     print("you are minor")
-elif age >= 18 and age <=  60:
+elif age <=  60:
     print("you are adult")
-elif age <= 60:
-    print("your are senior citicen")
+else:
+    print("you are senoir ")
 
 
 
