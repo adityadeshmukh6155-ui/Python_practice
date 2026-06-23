@@ -269,14 +269,25 @@
 #     print("You cannot access")
 # ==================================================================================================
 
-access = "user" or "guest"
+# access = "user" or "guest"
 
-print(input("enter   "))
+# print(input("enter   "))
 
-if "user" == "guest":
-    print("welcome")
-else:
-    print("u are not allowed here to access")
+# if "user" == "guest":
+#     print("welcome")
+# else:
+#     print("u are not allowed here to access")
+# =================================================================================================
+
+Employee_salary =int(input("enter your salary"))
+
+
+if Employee_salary > "bonus":
+    print("bonus is " * 10)
+
+
+
+
 
 
 
