@@ -321,7 +321,7 @@
 # =======================================================================================================
 
 a  = input("inter your age")
-b = input(float("inter your height"))
+b = input("inter your height")
 c = input("inter your name")
 d = input("are you stydent")
 
