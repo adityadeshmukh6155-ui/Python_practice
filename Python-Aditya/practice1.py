@@ -326,7 +326,7 @@ c = input("inter your name")
 d = input("are you stydent")
 e = None
 
-print(len(a))
+print(type(len(a)))
 print(len(b))
 print(len(c))
 print(len(d))
