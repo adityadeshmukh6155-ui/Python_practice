@@ -324,6 +324,14 @@ a  = input("inter your age")
 b = input("inter your height")
 c = input("inter your name")
 d = input("are you stydent")
+e = None
+
+print = (a)
+print = (b)
+print = (c)
+print = (d)
+print = (e)
+
 
     
 
