@@ -327,7 +327,7 @@ d = input("are you student ")
 e = None
 
 print(type(len(a)))
-print(type(len(b)))
+print(len(b))
 print(len(c))
 print(len(d))
 print(e)
