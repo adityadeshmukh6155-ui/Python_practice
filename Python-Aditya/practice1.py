@@ -320,7 +320,7 @@
 #     print("You are a Senior Citizen")
 # =======================================================================================================
 
-a  = input("inter your age ")
+a  = input(int("inter your age "))
 b = input("inter your height ")
 c = input("inter your name ")
 d = input("are you student ")
