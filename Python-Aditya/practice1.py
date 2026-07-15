@@ -326,11 +326,12 @@ c = input("inter your name")
 d = input("are you stydent")
 e = None
 
-print = (a)
-print = (b)
-print = (c)
-print = (d)
-print = (e)
+print(a)
+print(b)
+print(c)
+print(d)
+print(e)
+
 
 
     
