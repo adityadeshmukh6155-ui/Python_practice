@@ -330,7 +330,7 @@ print(len(a))
 print(len(b))
 print(len(c))
 print(len(d))
-print(len(e))
+print(e)
 
 
 
