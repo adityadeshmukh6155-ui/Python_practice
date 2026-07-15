@@ -291,17 +291,39 @@
 # print("Total Salary:", total_salary)
 # ================================================================================================
 
-age  = int(input("enter your age:  "))
+# age  = int(input("enter your age:  "))
 
-if age <= 18:
-    print("you are minor")
-elif age <=  60:
-    print("you are adult")
-else:
-    print("you are senoir ")
+# if age <= 18:
+#     print("you are minor")
+# elif age <=  60:
+#     print("you are adult")
+# else:
+#     print("you are senoir ")
+# ====================================================================================================
 
+# age  = int(input("enter your age:  "))
+# if age < 18:
+#     print("You are a Minor")
+# elif 18 <= age <= 60:
+#     print("You are an Adult")
+# else:
+#     print("You are a Senior Citizen")
+# =====================================================================================================
 
+# age = int(input("Enter your age: "))
 
+# if age < 18:
+#     print("You are a Minor")
+# elif age >= 18 and age <= 60:
+#     print("You are an Adult")
+# else:
+#     print("You are a Senior Citizen")
+# =======================================================================================================
+
+a  = input(int("inter your age"))
+b = input(float("inter your height"))
+c = input("inter your name")
+d = input("are you stydent")
 
     
 
