@@ -338,7 +338,7 @@
 # print(round(price,2))
 # print(math.floor(price))
 
-x = 7.0
+x = "hii"
 print(x.is_integer())
 
 
