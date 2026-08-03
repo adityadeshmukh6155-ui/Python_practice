@@ -339,7 +339,7 @@
 # print(math.floor(price))
 
 x = 1.2
-print(x.is_integer())
+print(x.is_string())
 
 
 
