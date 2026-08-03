@@ -333,11 +333,13 @@
 # print(e)
 
 # =======================================================================================
-import math
-price = 35.15
-print(round(price,2))
-print(math.floor(price))
+# import math
+# price = 35.15
+# print(round(price,2))
+# print(math.floor(price))
 
+x = 7.0
+print(x.is_integer())
 
 
 
