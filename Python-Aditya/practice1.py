@@ -320,21 +320,23 @@
 #     print("You are a Senior Citizen")
 # =======================================================================================================
 
-a  = int(input("inter your age "))
-b = input("inter your height ")
-c = input("inter your name ")
-d = input("are you student ")
-e = None
+# a  = int(input("inter your age "))
+# b = input("inter your height ")
+# c = input("inter your name ")
+# d = input("are you student ")
+# e = None
 
-print(len(a))
-print(len(b))
-print(len(c))
-print(len(d))
-print(e)
+# print(len(a))
+# print(len(b))
+# print(len(c))
+# print(len(d))
+# print(e)
 
+# =======================================================================================
 
+price = 35.15
+print(price)
 
-    
 
 
 
