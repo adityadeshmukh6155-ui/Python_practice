@@ -401,6 +401,10 @@ elif operator == "-":
 elif operator == "*":
     print("result : ", num1 * num2)
 elif operator == "/":
-    print("result : ", num1 / num2)
+    if num2 == 0:
+        print("we cant divide by 0")
+    else:
+        print("result : " ,num1 / num2)
+    
 else:
     print("error")
