@@ -444,30 +444,95 @@
 # ============================
 # Enter your choice:
 
-num1 = float(input("enter yout first number : "))
-operator = input(" enter your oprtaror (%, **, //,+, -, *, /) : ")
-num2 = float(input("enter yout second number : "))
+# print("welcome to the calculator")
 
-if operator == "%":
-    print("result : ", num1 % num2) 
-elif operator == "**":
-     print("result : ", num1 ** num2)
-elif operator == "//":
-     if num2 == 0:
-             print("we cant divide by 0")
-     print("result : ", num1 // num2)
-elif operator == "+":
-    print("result : ", num1 + num2) 
-elif operator == "-":
-    print("result : ", num1 - num2)
-elif operator == "*":
-    print("result : ", num1 * num2)
-elif operator == "/":
-    if num2 == 0:
-        print("we cant divide by 0")
-    else:
-        print("result", num1 / num2)
+
+# num1 = float(input("enter yout first number : "))
+# operator = input(" enter your oprtaror (%, **, //,+, -, *, /) : ")
+# num2 = float(input("enter yout second number : "))
+
+# if operator == "%":
+#     print("result : ", num1 % num2) 
+# elif operator == "**":
+#      print("result : ", num1 ** num2)
+# elif operator == "//":
+#      if num2 == 0:
+#              print("we cant divide by 0")
+#      print("result : ", num1 // num2)
+# elif operator == "+":
+#     print("result : ", num1 + num2) 
+# elif operator == "-":
+#     print("result : ", num1 - num2)
+# elif operator == "*":
+#     print("result : ", num1 * num2)
+# elif operator == "/":
+#     if num2 == 0:
+#         print("we cant divide by 0")
+#     else:
+#         print("result", num1 / num2)
 
    
-else:
-     print("error")
+# else:
+#      print("error")
+
+# ==========================
+
+while True:
+
+    print("\n====== PYTHON CALCULATOR ======")
+    print("1. Addition")
+    print("2. Subtraction")
+    print("3. Multiplication")
+    print("4. Division")
+    print("5. Modulus")
+    print("6. Power")
+    print("7. Floor Division")
+    print("8. Exit")
+
+    choice = input("Enter your choice: ")
+
+    if choice == "8":
+        print("Thank you for using the calculator!")
+        break
+
+    num1 = float(input("Enter first number: "))
+    num2 = float(input("Enter second number: "))
+
+    if choice == "1":
+        print("Result =", num1 + num2)
+
+    elif choice == "2":
+        print("Result =", num1 - num2)
+
+    elif choice == "3":
+        print("Result =", num1 * num2)
+
+    elif choice == "4":
+        if num2 == 0:
+            print("Cannot divide by zero")
+        else:
+            print("Result =", num1 / num2)
+
+    elif choice == "5":
+        if num2 == 0:
+            print("Cannot divide by zero")
+        else:
+            print("Result =", num1 % num2)
+
+    elif choice == "6":
+        print("Result =", num1 ** num2)
+
+    elif choice == "7":
+        if num2 == 0:
+            print("Cannot divide by zero")
+        else:
+            print("Result =", num1 // num2)
+
+    else:
+        print("Invalid choice")
+
+    again = input("Do you want to continue? (y/n): ")
+
+    if again.lower() == "n":
+        print("Goodbye!")
+        break
