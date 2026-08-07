@@ -610,8 +610,11 @@ num1 = int(input("enter your number"))
 while True:
     if num1 % 10 == 0:
       print("result : " , num1)
+      break
     elif num1 // 10 == 0:
        print("result : " ,num1)
        break
+    else:
+       print("error")
       
       
