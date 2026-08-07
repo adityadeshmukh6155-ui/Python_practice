@@ -420,11 +420,11 @@ num1 = float(input("enter yout first number : "))
 operator = input(" enter your oprtaror (%, **, //) : ")
 num2 = float(input("enter yout second number : "))
 
-if operator == "+":
+if operator == "%":
     print("result : ", num1 % num2) 
-elif operator == "-":
+elif operator == "**":
      print("result : ", num1 ** num2)
-elif operator == "*":
+elif operator == "//":
      print("result : ", num1 // num2)
    
 else:
