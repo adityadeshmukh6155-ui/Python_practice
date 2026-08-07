@@ -349,7 +349,7 @@
 print(input("enter the value of x :"))
 print (input("enter the value of y :"))
 
-x + y 
+print(x + y)
 
 
 
