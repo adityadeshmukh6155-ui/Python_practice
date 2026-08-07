@@ -609,4 +609,4 @@ num1 = int(input("enter your number"))
 
 while True:
    if num1 % 2 == 0:
-      print(num1.Reverse (num1)))
+      print(num1.Reverse (num1))
