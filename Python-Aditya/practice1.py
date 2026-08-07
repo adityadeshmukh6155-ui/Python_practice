@@ -544,7 +544,6 @@
 # If the number is even, print:
 
 num1 = (input("enter your number  :"))
-num2= (input("enter your second number  :"))
 
 
 if num1 != 0:
