@@ -346,9 +346,13 @@
 # Adds them.
 # Prints the result.
 
+# x = input("enter the value of x :")
+# y = input("enter the value of y :")
+# z  = x + y
+
+# print(z)
+
 x = input("enter the value of x :")
 y = input("enter the value of y :")
-z  = x + y
-
-print(z)
-
+sum = x + y
+print("Addition of two numbers is", sum)
