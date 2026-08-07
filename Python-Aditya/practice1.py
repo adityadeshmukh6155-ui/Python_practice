@@ -371,6 +371,7 @@ x = 2
 y = 3
 char = ("/")
 if char != 0:
-    print("even number")
-else:
     print("odd numer")
+else:
+    
+    print("even number")
