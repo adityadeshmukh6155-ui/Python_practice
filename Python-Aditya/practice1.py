@@ -391,7 +391,7 @@
 # Second number
 
 num1 = float(input("enter yout first number : "))
-operator = float(input(" enter your oprtaror (+, -, *, /) : "))
+operator = input(" enter your oprtaror (+, -, *, /) : ")
 num2 = float(input("enter yout second number : "))
 
 if operator == "+":
