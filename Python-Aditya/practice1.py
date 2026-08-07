@@ -543,10 +543,10 @@
 # Ask the user to enter a number.
 # If the number is even, print:
 
-num1 = (input("enter your number  :"))
+num1 = float(input("enter your number  :"))
 
 
-if num1 != 0:
-    print("odd number" )
+if num1 % 2 == 0:
+    print("even number" )
 else:
-    print("even number")
+    print("odd number")
