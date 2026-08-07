@@ -637,11 +637,15 @@
 
 x = int(input("enter your nuber"))
 
+original = x
 reverse = 0
 
 while x > 0:
     digit = x % 10
     reverse = reverse * 10 + digit
-    print("this is Palindrome ")
     x = x // 10
-    print("this is not Palindrome")
+
+if original == reverse:
+    print("Palindrome Number")
+else:
+    print("Not a Palindrome Number")
