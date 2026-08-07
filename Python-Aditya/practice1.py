@@ -620,14 +620,26 @@
 
 # Reverse a Number
 
-num = int(input("Enter a number: "))
+# num = int(input("Enter a number: "))
 
-reverse = 0
+# reverse = 0
 
-while num > 0:
-    digit = num % 10          # Get the last digit
+# while num > 0:
+#     digit = num % 10          # Get the last digit
+#     reverse = reverse * 10 + digit
+#     num = num // 10           # Remove the last digit
+
+# print("Reverse =", reverse)
+
+# =========================================================================================
+# Question 7: Palindrome Number (8/10)
+# A palindrome number reads the same forward and backward.
+
+x = int(input("enter your nuber"))
+
+while x > 0:
+    digit = x % 10
     reverse = reverse * 10 + digit
-    num = num // 10           # Remove the last digit
-
-print("Reverse =", reverse)
-      
+    print("this is Palindrome ")
+    x = x // 10
+    print("this is not Palindrome")
