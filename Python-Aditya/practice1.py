@@ -390,21 +390,42 @@
 # Operator (+, -, *, /)
 # Second number
 
+# num1 = float(input("enter yout first number : "))
+# operator = input(" enter your oprtaror (+, -, *, /) : ")
+# num2 = float(input("enter yout second number : "))
+
+# if operator == "+":
+#     print("result : ", num1 + num2) 
+# elif operator == "-":
+#     print("result : ", num1 - num2)
+# elif operator == "*":
+#     print("result : ", num1 * num2)
+# elif operator == "/":
+#     if num2 == 0:
+#         print("we cant divide by 0")
+#     else:
+#         print("result : " ,num1 / num2)
+    
+# else:
+#     print("error")
+
+# =========================================================================================
+# Next Challenge (Level Up)
+# Add these three operators:
+# % (Modulus)
+# ** (Power)
+# // (Floor Division)
+
 num1 = float(input("enter yout first number : "))
-operator = input(" enter your oprtaror (+, -, *, /) : ")
+operator = input(" enter your oprtaror (%, **, //) : ")
 num2 = float(input("enter yout second number : "))
 
 if operator == "+":
-    print("result : ", num1 + num2) 
+    print("result : ", num1 % num2) 
 elif operator == "-":
-    print("result : ", num1 - num2)
+     print("result : ", num1 ** num2)
 elif operator == "*":
-    print("result : ", num1 * num2)
-elif operator == "/":
-    if num2 == 0:
-        print("we cant divide by 0")
-    else:
-        print("result : " ,num1 / num2)
-    
+     print("result : ", num1 // num2)
+   
 else:
-    print("error")
+     print("error")
