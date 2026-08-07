@@ -582,7 +582,7 @@
 # Question 5: Grade Calculator
 # Write a program that asks the user to enter their marks (0–100) and prints the grade.
 
-marks =  print("enter your marks : ")
+marks =  int(input("enter your marks : "))
 
 if marks >= 90  :
     print("A" , marks)
