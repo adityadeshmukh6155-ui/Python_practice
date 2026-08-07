@@ -571,13 +571,30 @@
 # Write a program to determine whether a year is a Leap Year.
 # Examples
 
-year= int(input("enter your year "))
+# year= int(input("enter your year "))
 
-if (year % 4 == 0):
-    print("this is leap year", year)
+# if (year % 4 == 0):
+#     print("this is leap year", year)
+# else:
+#     print("this is not leap year")
+
+
+# Question 5: Grade Calculator
+# Write a program that asks the user to enter their marks (0–100) and prints the grade.
+
+marks =  print("enter your marks : ")
+
+if marks <= 90 or marks >= 100 :
+    print("A" , marks)
+elif marks >= 80:
+    print("B ") 
+elif marks >= 70:
+    print("c") 
+elif marks >= 60:
+    print("c ") 
+elif marks >= 50:
+    print("d ") 
+elif marks >= 40:
+    print("e ") 
 else:
-    print("this is not leap year")
-
-
-
-    
+    print("fail")
