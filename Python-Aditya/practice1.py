@@ -338,12 +338,18 @@
 # print(round(price,2))
 # print(math.floor(price))
 
-x = 1.2
-print(x.is_string())
+# x = 1.2
+# print(x.is_string())
 
+# Write a program that:
+# Takes two numbers as input.
+# Adds them.
+# Prints the result.
 
+print(input("enter the value of x :"))
+print (input("enter the value of y :"))
 
-
+x + y 
 
 
 
