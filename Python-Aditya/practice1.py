@@ -605,17 +605,29 @@
 # Example:Enter a number: 12345
 # Reverse = 54321
 
-num1 = int(input("enter your number"))
+# num1 = int(input("enter your number"))
 
-while True:
-    if num1 % 10 == 0:
-      print("result : " , num1)
-      break
-    elif num1 // 10 == 0:
-       print("result : " ,num1)
-       break
-    else:
-       print("error")
-       break
-      
+# while True:
+#     if num1 % 10 == 0:
+#       print("result : " , num1)
+#       break
+#     elif num1 // 10 == 0:
+#        print("result : " ,num1)
+#        break
+#     else:
+#        print("error")
+#        break
+
+# Reverse a Number
+
+num = int(input("Enter a number: "))
+
+reverse = 0
+
+while num > 0:
+    digit = num % 10          # Get the last digit
+    reverse = reverse * 10 + digit
+    num = num // 10           # Remove the last digit
+
+print("Reverse =", reverse)
       
