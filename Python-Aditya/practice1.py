@@ -584,7 +584,7 @@
 
 marks =  print("enter your marks : ")
 
-if marks <= 90 or marks >= 100 :
+if marks <= 90  :
     print("A" , marks)
 elif marks >= 80:
     print("B ") 
