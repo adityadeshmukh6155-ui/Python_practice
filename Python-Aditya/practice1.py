@@ -359,7 +359,18 @@
 
 
 # Take two numbers and subtract the second from the first.
-x  = 24
-y = 12
-z = x*y
-print(z)
+# x  = 24
+# y = 12
+# z = x*y
+# print(z)
+
+# Divide two numbers.
+# If the second number is 0, print:
+
+x = 2
+y = 3
+char = ("/")
+if char != 0:
+    print("even number")
+else:
+    print("odd numer")
