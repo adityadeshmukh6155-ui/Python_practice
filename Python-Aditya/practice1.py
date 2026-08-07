@@ -376,10 +376,31 @@
     
 #     print("even number")
 
-x = 2
-y = 3
+# x = 2
+# y = 3
 
-if y == 0:
-    print("Cannot divide by zero")
+# if y == 0:
+#     print("Cannot divide by zero")
+# else:
+#     print("Result =", x / y)
+
+
+# Ask the user for:
+# First number
+# Operator (+, -, *, /)
+# Second number
+
+num1 = float(input("enter yout first number : "))
+operator = float(input(" enter your oprtaror (+, -, *, /) : "))
+num2 = float(input("enter yout second number : "))
+
+if operator == "+":
+    print("result : ", num1 + num2) 
+elif operator == "-":
+    print("result : ", num1 - num2)
+elif operator == "*":
+    print("result : ", num1 * num2)
+elif operator == "/":
+    print("result : ", num1 / num2)
 else:
-    print("Result =", x / y)
+    print("error")
