@@ -543,9 +543,11 @@
 # Ask the user to enter a number.
 # If the number is even, print:
 
-num1 = (input("enter your number"))
-num2= (input("enter your second number"))
+num1 = (input("enter your number  :"))
+num2= (input("enter your second number  :"))
 
 
 if num1 != 0:
-    print("result"  )
+    print("odd number" )
+else:
+    print("even number")
