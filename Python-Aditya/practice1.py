@@ -416,8 +416,36 @@
 # ** (Power)
 # // (Floor Division)
 
+# num1 = float(input("enter yout first number : "))
+# operator = input(" enter your oprtaror (%, **, //) : ")
+# num2 = float(input("enter yout second number : "))
+
+# if operator == "%":
+#     print("result : ", num1 % num2) 
+# elif operator == "**":
+#      print("result : ", num1 ** num2)
+# elif operator == "//":
+#      print("result : ", num1 // num2)
+   
+# else:
+#      print("error")
+
+
+#  PYTHON CALCULATOR
+# ============================
+# 1. Addition
+# 2. Subtraction
+# 3. Multiplication
+# 4. Division
+# 5. Modulus
+# 6. Power
+# 7. Floor Division
+# 8. Exit
+# ============================
+# Enter your choice:
+
 num1 = float(input("enter yout first number : "))
-operator = input(" enter your oprtaror (%, **, //) : ")
+operator = input(" enter your oprtaror (%, **, //,+, -, *, /) : ")
 num2 = float(input("enter yout second number : "))
 
 if operator == "%":
@@ -425,7 +453,21 @@ if operator == "%":
 elif operator == "**":
      print("result : ", num1 ** num2)
 elif operator == "//":
+     if num2 == 0:
+             print("we cant divide by 0")
      print("result : ", num1 // num2)
+elif operator == "+":
+    print("result : ", num1 + num2) 
+elif operator == "-":
+    print("result : ", num1 - num2)
+elif operator == "*":
+    print("result : ", num1 * num2)
+elif operator == "/":
+    if num2 == 0:
+        print("we cant divide by 0")
+    else:
+        print("result", num1 / num2)
+
    
 else:
      print("error")
