@@ -559,9 +559,9 @@ x = int(input("enter your number  "))
 y = int(input("enter your number  "))
 z = int(input("enter your number  "))
 
-if  x >= y:
+if  x >= y and x >= z:
     print(" largest number is  ",x )
-elif y >= z:
+elif y >= z and y >= z:
     print("largest number is : ",y)
 else: 
     print("largest number is  :" ,z)
