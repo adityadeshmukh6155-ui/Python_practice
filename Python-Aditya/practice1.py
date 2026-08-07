@@ -348,8 +348,7 @@
 
 x = print(input("enter the value of x :"))
 y = print (input("enter the value of y :"))
+z  = x + y
 
-print(x + y)
-
-
+print(z)
 
