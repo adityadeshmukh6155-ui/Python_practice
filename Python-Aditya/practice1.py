@@ -361,5 +361,5 @@
 # Take two numbers and subtract the second from the first.
 x  = 24
 y = 12
-z = x-y
+z = x*y
 print(z)
