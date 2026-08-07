@@ -555,13 +555,27 @@
 # Find the Largest of Three Numbers
 # Write a program that asks the user to enter three numbers and prints the largest one.
 
-x = int(input("enter your number  "))
-y = int(input("enter your number  "))
-z = int(input("enter your number  "))
+# x = int(input("enter your number  "))
+# y = int(input("enter your number  "))
+# z = int(input("enter your number  "))
 
-if  x >= y and x >= z:
-    print(" largest number is  ",x )
-elif y >= z and y >= z:
-    print("largest number is : ",y)
-else: 
-    print("largest number is  :" ,z)
+# if  x >= y and x >= z:
+#     print(" largest number is  ",x )
+# elif y >= x and y >= z:
+#     print("largest number is : ",y)
+# else: 
+#     print("largest number is  :" ,z)
+
+# =====================================================================================
+
+# Write a program to determine whether a year is a Leap Year.
+# Examples
+
+x = int(input("enter your year "))
+
+if x % 4 == 0:
+     print("this is ", x)
+
+
+
+    
