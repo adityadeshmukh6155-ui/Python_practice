@@ -582,19 +582,31 @@
 # Question 5: Grade Calculator
 # Write a program that asks the user to enter their marks (0–100) and prints the grade.
 
-marks =  int(input("enter your marks : "))
+# marks =  int(input("enter your marks : "))
 
-if marks >= 90   :
-    print("A" , marks)
-elif marks >= 80 or marks <= 71:
-    print("B ") 
-elif marks >= 70:
-    print("c") 
-elif marks >= 60:
-    print("c ") 
-elif marks >= 50:
-    print("d ") 
-elif marks >= 40:
-    print("e ") 
-else:
-    print("fail")
+# if marks >= 90   :
+#     print("A" , marks)
+# elif marks >= 80 or marks <= 71:
+#     print("B ") 
+# elif marks >= 70:
+#     print("c") 
+# elif marks >= 60:
+#     print("c ") 
+# elif marks >= 50:
+#     print("d ") 
+# elif marks >= 40:
+#     print("e ") 
+# else:
+#     print("fail")
+
+# ========================================================================
+
+# Reverse a Number
+# Example:Enter a number: 12345
+# Reverse = 54321
+
+num1 = int(input("enter your number"))
+
+while True:
+   if num1 % 2 == 0:
+      print(num1.Reverse (num1)))
