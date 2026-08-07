@@ -543,10 +543,20 @@
 # Ask the user to enter a number.
 # If the number is even, print:
 
-num1 = float(input("enter your number  :"))
+# num1 = float(input("enter your number  :"))
 
 
-if num1 % 2 == 0:
-    print("even number" )
-else:
-    print("odd number")
+# if num1 % 2 == 0:
+#     print("even number" )
+# else:
+#     print("odd number")
+
+
+# Find the Largest of Three Numbers
+# Write a program that asks the user to enter three numbers and prints the largest one.
+
+x = int(input("enter your number"))
+y = int(input("enter your number"))
+z = int(input("enter your number"))
+
+print("largest number is : " x,y,z)
