@@ -352,7 +352,14 @@
 
 # print(z)
 
-x = int(input("enter the value of x :"))
-y = int(input("enter the value of y :"))
-sum = x + y
-print("Addition of two numbers is", sum)
+# x = int(input("enter the value of x :"))
+# y = int(input("enter the value of y :"))
+# sum = x + y
+# print("Addition of two numbers is", sum)
+
+
+# Take two numbers and subtract the second from the first.
+x  = 24
+y = 12
+z = x-y
+print(z)
