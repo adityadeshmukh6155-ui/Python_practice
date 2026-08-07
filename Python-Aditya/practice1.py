@@ -571,10 +571,10 @@
 # Write a program to determine whether a year is a Leap Year.
 # Examples
 
-x = int(input("enter your year "))
+year= int(input("enter your year "))
 
-if x % 4 == 0:
-     print("this is ", x)
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+     print("this is ")
 
 
 
