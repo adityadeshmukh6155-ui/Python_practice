@@ -584,9 +584,9 @@
 
 marks =  int(input("enter your marks : "))
 
-if marks >= 90  :
+if marks >= 90   :
     print("A" , marks)
-elif marks >= 80:
+elif marks >= 80 or marks <= 71:
     print("B ") 
 elif marks >= 70:
     print("c") 
