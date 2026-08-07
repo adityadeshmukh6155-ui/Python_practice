@@ -477,62 +477,75 @@
 
 # ==========================
 
-while True:
+# while True:
 
-    print("\n====== PYTHON CALCULATOR ======")
-    print("1. Addition")
-    print("2. Subtraction")
-    print("3. Multiplication")
-    print("4. Division")
-    print("5. Modulus")
-    print("6. Power")
-    print("7. Floor Division")
-    print("8. Exit")
+#     print("\n====== PYTHON CALCULATOR ======")
+#     print("1. Addition")
+#     print("2. Subtraction")
+#     print("3. Multiplication")
+#     print("4. Division")
+#     print("5. Modulus")
+#     print("6. Power")
+#     print("7. Floor Division")
+#     print("8. Exit")
 
-    choice = input("Enter your choice: ")
+#     choice = input("Enter your choice: ")
 
-    if choice == "8":
-        print("Thank you for using the calculator!")
-        break
+#     if choice == "8":
+#         print("Thank you for using the calculator!")
+#         break
 
-    num1 = float(input("Enter first number: "))
-    num2 = float(input("Enter second number: "))
+#     num1 = float(input("Enter first number: "))
+#     num2 = float(input("Enter second number: "))
 
-    if choice == "1":
-        print("Result =", num1 + num2)
+#     if choice == "1":
+#         print("Result =", num1 + num2)
 
-    elif choice == "2":
-        print("Result =", num1 - num2)
+#     elif choice == "2":
+#         print("Result =", num1 - num2)
 
-    elif choice == "3":
-        print("Result =", num1 * num2)
+#     elif choice == "3":
+#         print("Result =", num1 * num2)
 
-    elif choice == "4":
-        if num2 == 0:
-            print("Cannot divide by zero")
-        else:
-            print("Result =", num1 / num2)
+#     elif choice == "4":
+#         if num2 == 0:
+#             print("Cannot divide by zero")
+#         else:
+#             print("Result =", num1 / num2)
 
-    elif choice == "5":
-        if num2 == 0:
-            print("Cannot divide by zero")
-        else:
-            print("Result =", num1 % num2)
+#     elif choice == "5":
+#         if num2 == 0:
+#             print("Cannot divide by zero")
+#         else:
+#             print("Result =", num1 % num2)
 
-    elif choice == "6":
-        print("Result =", num1 ** num2)
+#     elif choice == "6":
+#         print("Result =", num1 ** num2)
 
-    elif choice == "7":
-        if num2 == 0:
-            print("Cannot divide by zero")
-        else:
-            print("Result =", num1 // num2)
+#     elif choice == "7":
+#         if num2 == 0:
+#             print("Cannot divide by zero")
+#         else:
+#             print("Result =", num1 // num2)
 
-    else:
-        print("Invalid choice")
+#     else:
+#         print("Invalid choice")
 
-    again = input("Do you want to continue? (y/n): ")
+#     again = input("Do you want to continue? (y/n): ")
 
-    if again.lower() == "n":
-        print("Goodbye!")
-        break
+#     if again.lower() == "n":
+#         print("Goodbye!")
+#         break
+
+# ==============================================================================
+
+# Even or Odd
+# Ask the user to enter a number.
+# If the number is even, print:
+
+num1 = (input("enter your number"))
+num2= (input("enter your second number"))
+
+
+if num1 != 0:
+    print("result"  )
