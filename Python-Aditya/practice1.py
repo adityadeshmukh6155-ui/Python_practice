@@ -367,11 +367,19 @@
 # Divide two numbers.
 # If the second number is 0, print:
 
+# x = 2
+# y = 3
+# char = ("/")
+# if char != 0:
+#     print("odd numer")
+# else:
+    
+#     print("even number")
+
 x = 2
 y = 3
-char = ("/")
-if char != 0:
-    print("odd numer")
+
+if y == 0:
+    print("Cannot divide by zero")
 else:
-    
-    print("even number")
+    print("Result =", x / y)
