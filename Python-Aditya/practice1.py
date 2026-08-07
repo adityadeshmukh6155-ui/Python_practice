@@ -352,7 +352,7 @@
 
 # print(z)
 
-x = float(input("enter the value of x :"))
-y = float(input("enter the value of y :"))
+x = int(input("enter the value of x :"))
+y = int(input("enter the value of y :"))
 sum = x + y
 print("Addition of two numbers is", sum)
