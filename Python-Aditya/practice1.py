@@ -346,8 +346,8 @@
 # Adds them.
 # Prints the result.
 
-x = print(input("enter the value of x :"))
-y = print (input("enter the value of y :"))
+x = input("enter the value of x :")
+y = input("enter the value of y :")
 z  = x + y
 
 print(z)
