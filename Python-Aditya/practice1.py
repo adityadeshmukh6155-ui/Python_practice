@@ -555,9 +555,9 @@
 # Find the Largest of Three Numbers
 # Write a program that asks the user to enter three numbers and prints the largest one.
 
-x = int(input("enter your number"))
-y = int(input("enter your number"))
-z = int(input("enter your number"))
+x = int(input("enter your number  "))
+y = int(input("enter your number  "))
+z = int(input("enter your number  "))
 
 if  x >= y:
     print(" largest number is  ",x )
