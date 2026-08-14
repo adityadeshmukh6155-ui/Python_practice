@@ -667,12 +667,24 @@
 # Next Question: Sum of Digits
 # Write a program that calculates the sum of all digits.
 
-x = int(input("enter your code  "))
+# x = int(input("enter your code  "))
+# sum = 0
+# while x > 0:
+#     digit = x % 10
+#     sum = sum + digit
+#     x = x  // 10
+#     print ("sum of digits =", sum)
+
+# =================================================================================
+# Next challenge
+# Count how many even and odd digits are in a number.
+
+x = int(input("enter your number  "))
+
 sum = 0
+
 while x > 0:
-    digit = x % 10
+    digit = x % 2
     sum = sum + digit
-    x = x  // 10
-    print ("sum of digits =", sum)
-
-
+    x = x // 10 
+    print("even and odds are ", sum)
