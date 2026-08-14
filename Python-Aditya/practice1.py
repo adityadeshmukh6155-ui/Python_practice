@@ -663,6 +663,6 @@ while x > 0:
     count = count + 1
 
 if  original  == count :
-    print(" number")
+    print("Total digits =", count)
 
 
