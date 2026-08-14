@@ -708,7 +708,8 @@
 # Sum of even digits
 # Sum of odd digits
 
-digit = int(input("enter your number  "))
+
+x = int(input("enter your number  "))
 
 even_sum = 0
 odd_sum = 0
@@ -722,7 +723,7 @@ while x > 0:
     else:
      odd_sum = odd_sum + digit
 
-    
+     x = x // 10
 
 print("even numbers are ",even_sum)
 print(" odd numbers are ", odd_sum)
