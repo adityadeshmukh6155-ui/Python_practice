@@ -684,7 +684,11 @@ x = int(input("enter your number  "))
 sum = 0
 
 while x > 0:
-    digit = x % 2
+    digit = x % 10
     sum = sum + digit
     x = x // 10 
-    print("even and odds are ", sum)
+
+if x == sum:
+    print("even numbers are ",sum)
+else:
+    print(" odd numbers are ", sum)
