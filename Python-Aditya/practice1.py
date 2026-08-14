@@ -635,17 +635,34 @@
 # Question 7: Palindrome Number (8/10)
 # A palindrome number reads the same forward and backward.
 
-x = int(input("enter your nuber"))
+# x = int(input("enter your nuber"))
+
+# original = x
+# reverse = 0
+
+# while x > 0:
+#     digit = x % 10
+#     reverse = reverse * 10 + digit
+#     x = x // 10
+
+# if original == reverse:
+#     print("Palindrome Number")
+# else:
+#     print("Not a Palindrome Number")
+
+# Next Question (Count Digits)
+# Write a program to count the number of digits in a number.
+
+x = int(input("enter uout number"))
 
 original = x
-reverse = 0
+count = 0
 
 while x > 0:
-    digit = x % 10
-    reverse = reverse * 10 + digit
-    x = x // 10
+    x = x  // 10
+    count = count + 1
 
-if original == reverse:
-    print("Palindrome Number")
-else:
-    print("Not a Palindrome Number")
+if  original  == count :
+    print(" number")
+
+
