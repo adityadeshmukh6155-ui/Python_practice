@@ -721,15 +721,16 @@ while x > 0:
     if digit % 2 == 0:
       even = even + 1
       digit = x % 10
-#     sum = sum + digit
-#     x = x  // 10
+      sum = sum + digit
+      x = x  // 10
+
+
     else:
       odd = odd + 1
       digit = x % 10
-#     sum = sum + digit
-#     x = x  // 10
+      sum = sum + digit
+      x = x  // 10
     
-    x = x // 10
 
 print("even numbers are ",even)
 print(" odd numbers are ", odd)
