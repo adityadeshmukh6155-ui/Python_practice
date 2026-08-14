@@ -653,7 +653,7 @@
 # Next Question (Count Digits)
 # Write a program to count the number of digits in a number.
 
-x = int(input("enter uout number"))
+x = int(input("enter your number"))
 
 original = x
 count = 0
@@ -662,7 +662,6 @@ while x > 0:
     x = x  // 10
     count = count + 1
 
-if  original  == count :
-    print("Total digits =", count)
+print("Total digits =", count)
 
 
