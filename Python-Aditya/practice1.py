@@ -679,21 +679,55 @@
 # Next challenge
 # Count how many even and odd digits are in a number.
 
+# x = int(input("enter your number  "))
+
+# even = 0
+# odd = 0
+
+# while x > 0:
+#     digit = x % 10
+    
+    
+
+#     if digit % 2 == 0:
+#       even = even + 1
+    
+#     else:
+#       odd = odd + 1
+    
+#     x = x // 10
+
+# print("even numbers are ",even)
+# print(" odd numbers are ", odd)
+
+#========================================================================================= 
+
+# Next Challenge: Sum of Even and Odd Digits
+# Now combine two things you've learned.
+# Write a program that calculates:
+# Sum of even digits
+# Sum of odd digits
+
 x = int(input("enter your number  "))
 
 even = 0
 odd = 0
+sum = 0 
 
 while x > 0:
     digit = x % 10
-    
-    
+
 
     if digit % 2 == 0:
       even = even + 1
-    
+      digit = x % 10
+#     sum = sum + digit
+#     x = x  // 10
     else:
       odd = odd + 1
+      digit = x % 10
+#     sum = sum + digit
+#     x = x  // 10
     
     x = x // 10
 
