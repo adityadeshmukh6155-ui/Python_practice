@@ -718,7 +718,7 @@ while x > 0:
     digit = x % 10
 
 
-    if digit == even_sum:
+    if digit % 2 == 0:
      even_sum = even_sum + digit
     else:
      odd_sum = odd_sum + digit
