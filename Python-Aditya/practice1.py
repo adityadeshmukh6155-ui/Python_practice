@@ -653,14 +653,21 @@
 # Next Question (Count Digits)
 # Write a program to count the number of digits in a number.
 
-x = int(input("enter your number"))
+# x = int(input("enter your number"))
 
-original = x
-count = 0
+# original = x
+# count = 0
+
+# while x > 0:
+#     x = x  // 10
+#     count = count + 1
+# print("Total digits =", count)
+
+# =======================================================================================
+# Next Question: Sum of Digits
+# Write a program that calculates the sum of all digits.
+
+x = int(input("enter your code  "))
 
 while x > 0:
-    x = x  // 10
-    count = count + 1
-print("Total digits =", count)
-
-
+    x = x % 10
