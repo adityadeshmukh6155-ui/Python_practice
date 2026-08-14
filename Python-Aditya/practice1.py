@@ -708,7 +708,7 @@
 # Sum of even digits
 # Sum of odd digits
 
-x = int(input("enter your number  "))
+digit = int(input("enter your number  "))
 
 even_sum = 0
 odd_sum = 0
