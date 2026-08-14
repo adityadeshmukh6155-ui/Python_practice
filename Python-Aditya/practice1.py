@@ -668,11 +668,11 @@
 # Write a program that calculates the sum of all digits.
 
 x = int(input("enter your code  "))
-sum = x + sum
+sum = sum + x
 while x > 0:
     x = x % 10
-    count = count + 1
+    sum = sum + x
     x = x  // 10
-    print ("Total digits =", count)
+    print ("Total digits =", sum)
 
 
