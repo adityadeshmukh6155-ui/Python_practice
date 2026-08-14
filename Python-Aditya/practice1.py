@@ -723,7 +723,7 @@ while x > 0:
     else:
      odd_sum = odd_sum + digit
 
-x = x // 10
+    x = x // 10
 
 print("even numbers are ",even_sum)
 print(" odd numbers are ", odd_sum)
