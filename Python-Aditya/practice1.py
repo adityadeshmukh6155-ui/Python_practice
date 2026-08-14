@@ -690,5 +690,5 @@ while x > 0:
 
 if x == sum:
     print("even numbers are ",sum)
-else:
+elif x % 2 == 0:
     print(" odd numbers are ", sum)
