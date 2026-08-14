@@ -687,11 +687,15 @@ odd = 0
 while x > 0:
     digit = x % 10
     
-    x = x // 10 
+    
 
 if digit % 2 == 0:
     even = even + 1
-    print("even numbers are ",digit)
+    
 elif digit % 2 != 0:
     odd = odd + 1
-    print(" odd numbers are ", digit)
+    
+x = x // 10
+
+print("even numbers are ",even)
+print(" odd numbers are ", odd)
