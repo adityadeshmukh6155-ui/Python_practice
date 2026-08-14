@@ -710,27 +710,22 @@
 
 x = int(input("enter your number  "))
 
-even = 0
-odd = 0
-sum = 0 
+even_sum = 0
+odd_sum = 0
 
 while x > 0:
     digit = x % 10
 
 
-    if digit % 2 == 0:
-      even = even + 1
-      digit = x % 10
-      sum = sum + digit
-      x = x  // 10
-
-
+    if digit == even_sum:
+     even_sum = even_sum + digit
     else:
-      odd = odd + 1
-      digit = x % 10
-      sum = sum + digit
-      x = x  // 10
+     odd_sum = odd_sum + digit
+
     
 
-print("even numbers are ",even)
-print(" odd numbers are ", odd)
+print("even numbers are ",even_sum)
+print(" odd numbers are ", odd_sum)
+
+
+
