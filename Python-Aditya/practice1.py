@@ -688,7 +688,7 @@ while x > 0:
     sum = sum + digit
     x = x // 10 
 
-if x == sum:
+if x % 2 == 0:
     print("even numbers are ",sum)
-elif x % 2 == 0:
+elif x % 2 != 0:
     print(" odd numbers are ", sum)
