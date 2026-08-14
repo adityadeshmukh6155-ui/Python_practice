@@ -691,7 +691,7 @@ while x > 0:
 
 if digit % 2 == 0:
     even = even + 1
-    print("even numbers are ",sum)
+    print("even numbers are ",digit)
 elif digit % 2 != 0:
     odd = odd + 1
-    print(" odd numbers are ", sum)
+    print(" odd numbers are ", digit)
