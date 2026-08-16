@@ -709,24 +709,36 @@
 # Sum of odd digits
 
 
-x = int(input("enter your number  "))
+# x = int(input("enter your number  "))
 
-even_sum = 0
-odd_sum = 0
+# even_sum = 0
+# odd_sum = 0
 
-while x > 0:
-    digit = x % 10
+# while x > 0:
+#     digit = x % 10
 
 
-    if digit % 2 == 0:
-     even_sum = even_sum + digit
-    else:
-     odd_sum = odd_sum + digit
+#     if digit % 2 == 0:
+#      even_sum = even_sum + digit
+#     else:
+#      odd_sum = odd_sum + digit
 
-    x = x // 10
+#     x = x // 10
 
-print("even numbers are ",even_sum)
-print(" odd numbers are ", odd_sum)
+# print("even numbers are ",even_sum)
+# print(" odd numbers are ", odd_sum)
 
+
+# ======================================================================================
+
+# Next Challenge: Prime Number
+# Write a program to check whether a number is prime.
+
+x = int(input("enter your number"))
+
+if x % 2 != 0:
+    print("its a not prime number")
+else:
+    print("its a prime number")
 
 
