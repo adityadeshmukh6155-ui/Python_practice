@@ -735,10 +735,11 @@
 # Write a program to check whether a number is prime.
 
 x = int(input("enter your number"))
-
-if x % 2 != 0:
+i = 2
+while i < x:
+  if x % 2 != 0:
     print("its a not prime number")
-else:
+  else:
     print("its a prime number")
 
 
