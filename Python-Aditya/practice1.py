@@ -742,4 +742,6 @@ while i < x:
   else:
     print("its a prime number")
 
+    break
+
 
