@@ -737,7 +737,7 @@
 x = int(input("enter your number"))
 i = 2
 while i < x:
-  if x % 2 != 0:
+  if x % i != 0:
     print("its a not prime number")
   else:
     print("its a prime number")
